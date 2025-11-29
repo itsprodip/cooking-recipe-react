@@ -8,7 +8,7 @@ const NavBar = () => {
         <div>
           <ul className="flex justify-between gap-2 text-2xl font-bold">
             <NavLink to={'/'} className='hover:bg-amber-600 hover:text-white rounded-lg p-1 cursor-pointer'>Home</NavLink>
-            <NavLink to={`recipes`} className='hover:bg-amber-600 hover:text-white rounded-lg p-1 cursor-pointer'>Recipe</NavLink>
+            <a className='hover:bg-amber-600 hover:text-white rounded-lg p-1 cursor-pointer'>Recipe</a>
             <NavLink to={'aboutus'} className='hover:bg-amber-600 hover:text-white rounded-lg p-1 cursor-pointer'>About Us</NavLink>
            
           </ul>

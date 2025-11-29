@@ -18,6 +18,7 @@ const router = createBrowserRouter([
           fetch("https://dummyjson.com/recipes").then((res) => res.json()),
         Component: Home,
       },
+    
       {
         path: "recipes/:recepeId",
         loader: ({ params }) => {
